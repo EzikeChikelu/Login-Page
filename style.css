@@ -1,0 +1,90 @@
+body{
+  background-image: url("images/color.png");
+  opacity: 80%;
+}
+
+section{
+  margin-left: 40%;
+  margin-top: 10%;
+  margin-right: 40%;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  background-image: url("images/purple.jpg");
+  opacity: 100%;
+  background-blend-mode: normal;
+  border-radius: 5px;
+}
+
+h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+input{
+  margin-top: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.ping{
+  height: 20px;
+  width: 98%;
+  margin-bottom: 10px;
+}
+
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 900px){
+  body{
+    background-image:url(images/phone.jpg);
+  }
+
+  section{
+    margin-left: 20%;
+    margin-top: 30%;
+    margin-right: 20%;
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+    background-image: url("images/purple.jpg");
+    opacity: 100%;
+    border-radius: 5px;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bolder;
+  }
+
+  .ping{
+    height: 20px;
+    width: 95%;
+    margin-bottom: 10px;
+  }
+}
