@@ -49,6 +49,12 @@ button{
   font-weight: bolder;
 }
 
+img{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
 @media screen and (max-width: 900px){
   body{
     background-image:url(images/phone.jpg);
