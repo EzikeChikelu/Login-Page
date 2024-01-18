@@ -60,7 +60,7 @@ img{
   height: 130px;
   border-radius: 100px;
   border-top: 5px solid black;
-  animation: loading .5s infinite linear;
+  animation: loading .100s infinite linear;
 }
 
 @keyframes loading {
