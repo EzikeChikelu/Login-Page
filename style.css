@@ -55,6 +55,23 @@ img{
   margin-left: 5px;
 }
 
+.loading{
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  border-top: 5px solid black;
+  animation: loading .5s infinite linear;
+}
+
+@keyframes loading {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (max-width: 900px){
   body{
     background-image:url(images/phone.jpg);
@@ -62,7 +79,7 @@ img{
 
   section{
     margin-left: 20%;
-    margin-top: 30%;
+    margin-top: 25%;
     margin-right: 20%;
     font-weight: bold;
     font-size: 13px;
@@ -92,5 +109,13 @@ img{
     height: 20px;
     width: 95%;
     margin-bottom: 10px;
+  }
+
+  .loading{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border-top: 5px solid black;
+    animation: loading .5s infinite linear;
   }
 }
